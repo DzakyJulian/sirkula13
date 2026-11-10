@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Reward extends Model
 {
+<<<<<<< HEAD
     use HasFactory;
 
     protected $fillable = [
@@ -28,4 +29,7 @@ class Reward extends Model
     {
         return $this->hasMany(RewardRedemption::class);
     }
+=======
+    //
+>>>>>>> 7d3f6c32ee16d6887a3af0c673ec9c2eb28ee2e5
 }

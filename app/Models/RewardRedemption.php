@@ -37,4 +37,5 @@ class RewardRedemption extends Model
     {
         return $this->belongsTo(Reward::class);
     }
+    //
 }
